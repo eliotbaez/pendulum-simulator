@@ -1,7 +1,11 @@
+#!/usr/bin/python3
 # importing image object from PIL
 import math
 from math import pi as PI, cos as cos, sin as sin
 from PIL import Image, ImageDraw
+from os import system
+
+system('mkdir render')
 
 w, h = 1920, 1080
 start = (40, 40)
